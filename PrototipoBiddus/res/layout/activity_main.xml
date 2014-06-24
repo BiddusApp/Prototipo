@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prototipobiddus.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/obtener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obtener" />
+
+    <ListView
+        android:id="@+id/lstClientes"
+        android:layout_width="match_parent"
+        android:layout_height="395dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/obtener"
+        android:layout_alignBottom="@+id/obtener"
+        android:layout_marginLeft="68dp"
+        android:layout_toRightOf="@+id/obtener"
+        android:text="TextView" />
+
+</RelativeLayout>
